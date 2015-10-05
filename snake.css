@@ -45,3 +45,11 @@ figure:after {
   clear: both;
   display: block;
 }
+
+h4 {
+  padding: 15px;
+  width: 200px;
+  margin: auto;
+  font-style: oblique;
+  text-align: center;
+}
