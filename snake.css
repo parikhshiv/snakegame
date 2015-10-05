@@ -1,0 +1,47 @@
+h1 {
+  width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: cursive;
+  padding: 10px;
+}
+
+figure {
+  width: 450px;
+  margin: auto;
+  /*text-align: center;*/
+  border: 5px solid olive;
+}
+
+pre {
+  margin: auto;
+}
+
+
+div {
+  float: left;
+  width: 25px;
+  height: 25px;
+  margin: auto;
+}
+
+div.empty {
+  background-color: blue;
+  color: blue;
+}
+
+div.snake {
+  background-color: red;
+  color: red;
+}
+
+div.apple {
+  background-color: lightgreen;
+  color: lightgreen;
+}
+
+figure:after {
+  content: "";
+  clear: both;
+  display: block;
+}
